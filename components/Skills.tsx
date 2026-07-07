@@ -1,3 +1,5 @@
+import SectionLabel from "@/components/SectionLabel";
+
 const categories = [
   { label: "Languages & Frameworks", items: ["JavaScript", "TypeScript", "Node.js", "Express.js", "Next.js", "React", "Redux", "Zustand"] },
   { label: "Database & CMS",         items: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "Prisma", "Payload CMS"] },
@@ -9,7 +11,7 @@ export default function Skills() {
   return (
     <section id="skills" className="section" style={{ borderTop: "1px solid var(--border)" }}>
       <div className="container">
-        <span className="section-label">Skills</span>
+        <SectionLabel path="skills" />
 
         <div style={{ display: "flex", flexDirection: "column" }}>
           {categories.map((cat, i) => (

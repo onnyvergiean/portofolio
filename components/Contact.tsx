@@ -1,3 +1,5 @@
+import SectionLabel from "@/components/SectionLabel";
+
 const contacts = [
   {
     label: "Email",
@@ -29,7 +31,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section" style={{ borderTop: "1px solid var(--border)" }}>
       <div className="container">
-        <span className="section-label">Contact</span>
+        <SectionLabel path="contact" />
 
         <div className="contact-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "start" }}>
           {/* Left */}

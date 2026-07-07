@@ -1,8 +1,10 @@
+import SectionLabel from "@/components/SectionLabel";
+
 export default function Education() {
   return (
-    <section id="education" className="section" style={{ borderTop: "1px solid var(--border)", minHeight: "60vh", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+    <section id="education" className="section" style={{ borderTop: "1px solid var(--border)" }}>
       <div className="container">
-        <span className="section-label">Education</span>
+        <SectionLabel path="education" />
 
         <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
           {/* Universitas Amikom */}

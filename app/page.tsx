@@ -7,14 +7,12 @@ import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import NetworkBackground from "@/components/NetworkBackground";
 
 export default function Home() {
   return (
     <>
-      <NetworkBackground />
       <Nav />
-      <main style={{ position: "relative", zIndex: 1 }}>
+      <main>
         <Hero />
         <About />
         <Experience />

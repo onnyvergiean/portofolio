@@ -1,4 +1,5 @@
 import React from "react";
+import SectionLabel from "@/components/SectionLabel";
 
 const H = ({ children }: { children: string }) => (
   <span style={{ color: "var(--text)", fontWeight: 600 }}>{children}</span>
@@ -94,7 +95,7 @@ export default function Experience() {
   return (
     <section id="experience" className="section" style={{ borderTop: "1px solid var(--border)" }}>
       <div className="container">
-        <span className="section-label">Experience</span>
+        <SectionLabel path="experience" />
 
         <div style={{ display: "flex", flexDirection: "column", gap: "2.5rem" }}>
           {jobs.map((job, i) => (
@@ -125,13 +126,14 @@ export default function Experience() {
                     {job.current && (
                       <span
                         style={{
+                          fontFamily: "var(--font-mono)",
                           fontSize: "0.65rem",
                           fontWeight: 500,
                           letterSpacing: "0.08em",
                           textTransform: "uppercase",
-                          color: "#4ade80",
-                          background: "rgba(74,222,128,0.08)",
-                          border: "1px solid rgba(74,222,128,0.15)",
+                          color: "var(--live)",
+                          background: "var(--live-soft)",
+                          border: "1px solid var(--live-soft)",
                           borderRadius: "100px",
                           padding: "0.12rem 0.5rem",
                         }}
