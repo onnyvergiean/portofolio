@@ -23,7 +23,7 @@ export default function Hero() {
               }}
             >
               <Image
-                src="/Avatar.jpg"
+                src="/avatar.png"
                 alt="Onny Vergiean Saputra"
                 width={36}
                 height={36}
