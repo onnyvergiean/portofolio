@@ -15,8 +15,6 @@ export default function Education() {
               alignItems: "flex-start",
               flexWrap: "wrap",
               gap: "0.5rem",
-              paddingBottom: "1.5rem",
-              borderBottom: "1px solid var(--border)",
             }}
           >
             <div>
@@ -35,31 +33,6 @@ export default function Education() {
               <p style={{ fontSize: "0.92rem", fontWeight: 600, color: "var(--text)" }}>
                 GPA 3.93 <span style={{ fontWeight: 400, color: "var(--text-faint)", fontSize: "0.8rem" }}>/ 4.00</span>
               </p>
-            </div>
-          </div>
-
-          {/* SMK Negeri 2 Depok Sleman */}
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "flex-start",
-              flexWrap: "wrap",
-              gap: "0.5rem",
-              paddingTop: "1.5rem",
-            }}
-          >
-            <div>
-              <h3 style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--text)", letterSpacing: "-0.01em", marginBottom: "0.2rem" }}>
-                Computer and Network Engineering
-              </h3>
-              <p style={{ fontSize: "0.82rem", color: "var(--text-faint)", marginBottom: "0.2rem" }}>
-                SMK Negeri 2 Depok Sleman
-              </p>
-              <p style={{ fontSize: "0.78rem", color: "var(--text-faint)" }}>4-year vocational program</p>
-            </div>
-            <div style={{ textAlign: "right", flexShrink: 0 }}>
-              <p style={{ fontSize: "0.78rem", color: "var(--text-faint)" }}>2015 – 2019</p>
             </div>
           </div>
         </div>

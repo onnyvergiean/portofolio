@@ -38,57 +38,6 @@ const jobs = [
     ],
     stack: ["Next.js", "React", "TypeScript", "SEO"],
   },
-  {
-    period: "Sep 2023 – Dec 2023",
-    role: "Backend Engineering Bootcamp",
-    type: "Seasonal",
-    company: "FGA × Binar Academy",
-    location: "Indonesia · Remote",
-    current: false,
-    highlights: [
-      <>Incentive-based backend program building <H>production-grade APIs</H>.</>,
-      <>Built real-world projects with Node.js, Express.js, Prisma, and PostgreSQL.</>,
-    ],
-    stack: ["Node.js", "Express.js", "Prisma ORM", "PostgreSQL"],
-  },
-  {
-    period: "Mar 2023 – Apr 2023",
-    role: "Scalable Web Service with Golang",
-    type: "Training",
-    company: "Digital Talent Scholarship × Hacktiv8",
-    location: "Indonesia",
-    current: false,
-    highlights: [
-      <><H>6-week intensive training</H> on scalable web services in Go.</>,
-      <>Covered GORM, REST API design, and performance-oriented backend patterns.</>,
-    ],
-    stack: ["Go", "GORM", "REST API"],
-  },
-  {
-    period: "Jul 2022 – Aug 2022",
-    role: "Junior Web Developer",
-    type: "Training",
-    company: "Digital Talent Scholarship",
-    location: "Indonesia",
-    current: false,
-    highlights: [
-      "Web development training covering server-side scripting and relational databases.",
-    ],
-    stack: ["PHP", "MySQL"],
-  },
-  {
-    period: "May 2018 – Nov 2018",
-    role: "IT Support",
-    type: "Internship",
-    company: "PT Aino Indonesia",
-    location: "South Jakarta",
-    current: false,
-    highlights: [
-      "IT support for internal operations: hardware and software troubleshooting.",
-      "Developed communication and problem-solving skills in a professional enterprise environment.",
-    ],
-    stack: ["IT Support", "Communication", "Problem Solving"],
-  },
 ];
 
 export default function Experience() {

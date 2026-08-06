@@ -6,12 +6,13 @@ import { usePathname } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
 
 const links = [
-  { href: "#about",      section: "about" },
-  { href: "#experience", section: "experience" },
-  { href: "#projects",   section: "projects" },
-  { href: "#skills",     section: "skills" },
-  { href: "#education",  section: "education" },
-  { href: "#contact",    section: "contact" },
+  { href: "#about",       section: "about" },
+  { href: "#experience",  section: "experience" },
+  { href: "#highlights",  section: "highlights" },
+  { href: "#projects",    section: "projects" },
+  { href: "#skills",      section: "skills" },
+  { href: "#education",   section: "education" },
+  { href: "#contact",     section: "contact" },
 ];
 
 export default function Nav() {

@@ -6,7 +6,7 @@ export default function Hero() {
       className="section"
       style={{ paddingTop: "140px", paddingBottom: "6rem" }}
     >
-      <div className="container hero-grid">
+      <div className="container">
         <div>
           {/* Avatar + name + live dot */}
           <div
@@ -41,7 +41,7 @@ export default function Hero() {
           {/* Big statement */}
           <h1
             style={{
-              fontSize: "clamp(2.2rem, 5vw, 3.75rem)",
+              fontSize: "clamp(2.6rem, 7vw, 5.75rem)",
               fontWeight: 700,
               color: "var(--text)",
               letterSpacing: "-0.03em",
@@ -53,7 +53,7 @@ export default function Hero() {
           </h1>
           <p
             style={{
-              fontSize: "clamp(2.2rem, 5vw, 3.75rem)",
+              fontSize: "clamp(2.6rem, 7vw, 5.75rem)",
               fontWeight: 700,
               color: "var(--text-faint)",
               letterSpacing: "-0.03em",
@@ -66,10 +66,10 @@ export default function Hero() {
 
           <p
             style={{
-              fontSize: "1rem",
+              fontSize: "1.05rem",
               color: "var(--text-muted)",
               lineHeight: 1.7,
-              maxWidth: "34rem",
+              maxWidth: "38rem",
               marginBottom: "2.5rem",
             }}
           >
@@ -86,30 +86,6 @@ export default function Hero() {
             <a href="#projects" className="btn btn-ghost">View projects</a>
             <a href="mailto:onny133saputra@gmail.com" className="btn btn-ghost">Get in touch</a>
             <a href="/CV Onny Vergiean Saputra.pdf" download className="btn btn-ghost">Download CV</a>
-          </div>
-        </div>
-
-        {/* Signature: Onny as an API resource */}
-        <div className="hero-card">
-          <div className="hero-card-head">
-            <span className="hero-card-method">GET /onny</span>
-            <span className="hero-card-status">200 OK</span>
-          </div>
-          <div className="hero-card-body">
-            <div>{"{"}</div>
-            <div className="hero-card-line">
-              <span className="hero-card-key">&quot;role&quot;</span>: <span className="hero-card-string">&quot;Backend Developer&quot;</span>,
-            </div>
-            <div className="hero-card-line">
-              <span className="hero-card-key">&quot;focus&quot;</span>: [<span className="hero-card-string">&quot;apis&quot;</span>, <span className="hero-card-string">&quot;automation&quot;</span>, <span className="hero-card-string">&quot;infra&quot;</span>],
-            </div>
-            <div className="hero-card-line">
-              <span className="hero-card-key">&quot;status&quot;</span>: <span className="hero-card-live">&quot;open_for_work&quot;</span>,
-            </div>
-            <div className="hero-card-line">
-              <span className="hero-card-key">&quot;based_in&quot;</span>: <span className="hero-card-string">&quot;Yogyakarta, ID&quot;</span>
-            </div>
-            <div>{"}"}</div>
           </div>
         </div>
       </div>

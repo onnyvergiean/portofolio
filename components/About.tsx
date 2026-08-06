@@ -27,14 +27,14 @@ export default function About() {
           </p>
           <p>
             I&apos;m a <H>Backend Developer at PT Mitra Berdaya Optima</H>, where I&apos;ve built
-            most of the internal systems the company runs on — CRM, LMS, KPI tracking, document
-            management — plus <H>SSO with Keycloak</H> across every platform. I also rebuilt the
-            public website on Next.js and Express, reaching <H>2M+ Search Console impressions</H> within
-            three months of launch.
+            most of the internal systems the company runs on: a <H>CRM</H> that helped grow the
+            sales pipeline, a <H>KPI system</H> that replaced manual tracking through spreadsheets
+            across departments, and an <H>LMS</H> for structured employee training — plus{" "}
+            <H>SSO with Keycloak</H> across every platform.
           </p>
           <p>
-            I gravitate toward backend work — <H>API design, automation, infrastructure</H> — and
-            like solving real problems, not interesting ones.
+            I focus on <H>TypeScript, Node.js, Express, React, Next.js, and Prisma</H>,
+            mostly for API design and automation. I&apos;d rather solve a real problem than a merely interesting one.
           </p>
         </div>
       </div>
